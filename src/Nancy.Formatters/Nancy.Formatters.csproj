@@ -47,6 +47,8 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="JsonFormatterExtensions.cs" />
+    <Compile Include="CsvFormatterExtensions.cs" />
+    <Compile Include="Responses\CsvResponse.cs" />
     <Compile Include="Responses\JsonResponse.cs" />
   </ItemGroup>
   <ItemGroup>

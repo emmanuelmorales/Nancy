@@ -42,6 +42,12 @@ namespace Nancy.Demo
                 var model = new RatPack { FirstName = "Frank" };
                 return Response.AsJson(model);
             };
+
+            Get["/csv"] = x =>
+            {
+                var model = new RatPack { FirstName = "Dean" };
+                return Response.AsCsv(model);
+            };
         }
     }
 }
